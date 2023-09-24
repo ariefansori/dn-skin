@@ -1,0 +1,22 @@
+/* game field */
+#game-field-background-image-player {
+  filter: brightness(100%);
+}
+
+#game-field-background-image-opponent {
+  filter: brightness(100%);
+}
+
+#card-id {
+  display: none;  
+}
+
+/* selected card */
+.game-selected-card {
+  outline: 2px doted #CCC;
+  filter: brightness(140%);
+  -webkit-filter: brightness(140%);
+  -webkit-box-shadow:inset 0px 0px 0px 3px #08eb19;
+  -moz-box-shadow:inset 0px 0px 0px 3px #08eb19;
+  box-shadow:inset 0px 0px 0px 3px #08eb19;
+}
