@@ -1,0 +1,29 @@
+[
+  {
+    "uuid": "0ca9724d-bf0c-4484-9485-fccaa2a450ce",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "yugi.wiki"
+      ],
+      "path": [
+        "*/AvatarBorders/*",
+        "*/Avatars/*",
+        "*/Borders/*",
+        "*/Playmats/*",
+        "*/Sleeves/*"
+      ],
+      "includes": [
+        "/\\/\\d\\.(jpg|png)/"
+      ]
+    },
+    "types": [
+      "image"
+    ],
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "[port=8000][protocol=http][hostname=127.0.0.1][pathname={pathname::-4/\\/assets\\/profile/}.png]",
+    "title": "Redirect%3A%20duelingnexus%20%E2%86%92%C2%A0%20avatars%2C%20portraits%2C%20sleeves%2C%20frames%2C%20playmates",
+    "tag": "skin"
+  }
+]
