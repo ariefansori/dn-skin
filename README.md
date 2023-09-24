@@ -1,2 +1,2 @@
 # dn-skin
-Custom duelingnetwork skin
+Custom duelingnexus skin
