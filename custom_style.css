@@ -20,3 +20,8 @@
   -moz-box-shadow:inset 0px 0px 0px 3px #08eb19;
   box-shadow:inset 0px 0px 0px 3px #08eb19;
 }
+
+
+#adsense {
+  display: none;
+}
