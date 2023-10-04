@@ -22,8 +22,75 @@
     ],
     "action": "redirect",
     "active": true,
-    "redirectUrl": "[port=8000][protocol=http][hostname=127.0.0.1][pathname={pathname::-4/\\/assets\\/profile/}.png]",
-    "title": "Redirect%3A%20duelingnexus%20%E2%86%92%C2%A0%20avatars%2C%20portraits%2C%20sleeves%2C%20frames%2C%20playmates",
+    "redirectUrl": "[port=8080][protocol=http][hostname=127.0.0.1][pathname={pathname::-4/\\/assets\\/profile/}.webp]",
+    "title": "Redirect%3A%20duelingnexus%20%E2%86%92%20avatars%2C%20portraits%2C%20sleeves%2C%20frames%2C%20playmates",
     "tag": "skin"
+  },
+  {
+    "uuid": "1016e448-a81f-470c-9db4-0c052bded48e",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "duelingnexus.com"
+      ],
+      "path": [
+        "*/bg*"
+      ],
+      "includes": [
+        ".jpg"
+      ]
+    },
+    "types": [
+      "image"
+    ],
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "[port=8080][protocol=http][hostname=127.0.0.1][pathname=textures/bg.webp]",
+    "title": "Redirect%3A%20duelingnexus%20%E2%86%92%20background"
+  },
+  {
+    "uuid": "09f6c100-8b37-4aeb-b27c-109c30f42b5b",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "yugi.wiki"
+      ],
+      "path": [
+        "*/1225009.jpg",
+        "*/2347656.jpg",
+        "*/75730490.jpg",
+        "*/81497285.jpg"
+      ],
+      "includes": [
+        "common"
+      ]
+    },
+    "types": [
+      "image"
+    ],
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "[port=8080][protocol=http][hostname=127.0.0.1][pathname=cards{pathname::-4/\\/assets\\/card-images\\/common/}.jpg]",
+    "title": "Redirect%3A%20duelingnexus%20%E2%86%92%20cards",
+    "tag": "card"
+  },
+  {
+    "uuid": "67f554a4-1b68-4b5e-95c7-84784b831584",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "duelingnexus.com"
+      ],
+      "path": [
+        "*/musics/*"
+      ],
+      "includes": [
+        ".ogg"
+      ]
+    },
+    "action": "block",
+    "active": true,
+    "title": "Block%3A%20duelingnexus%20%E2%86%92%20music",
+    "redirectUrl": "[port=8000][protocol=http][hostname=127.0.0.1][pathname=music/music.ogg]"
   }
 ]
