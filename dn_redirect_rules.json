@@ -45,7 +45,7 @@
     ],
     "action": "redirect",
     "active": true,
-    "redirectUrl": "[port=8080][protocol=http][hostname=127.0.0.1][pathname=textures/bg.webp]",
+    "redirectUrl": "[port=8080][protocol=http][hostname=127.0.0.1][pathname=Textures/bg.webp]",
     "title": "Redirect%3A%20duelingnexus%20%E2%86%92%20background"
   },
   {
@@ -70,7 +70,7 @@
     ],
     "action": "redirect",
     "active": true,
-    "redirectUrl": "[port=8080][protocol=http][hostname=127.0.0.1][pathname=cards{pathname::-4/\\/assets\\/card-images\\/common/}.jpg]",
+    "redirectUrl": "[port=8080][protocol=http][hostname=127.0.0.1][pathname=Cards{pathname::-4/\\/assets\\/card-images\\/common/}.jpg]",
     "title": "Redirect%3A%20duelingnexus%20%E2%86%92%20cards",
     "tag": "card"
   },
