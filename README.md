@@ -25,9 +25,3 @@ Custom duelingnexus skin
 11. set port = 8080 and root folder to your downloaded dn-skin folder
 12. start server
 13. play duelingnexus in firefox nightly
-
-## How to add your custom skin
-You can add custom skins to the folder by replacing existing images. Images are limited to 10 for each skin folder, but you can further increase the number you want by editing redirect rules. Important: you must convert your image to .webp format, otherwise it will not detected.
-
-## Extra
-For more advanced styling you can tweak the css with **Stylus**.
